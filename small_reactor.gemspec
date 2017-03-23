@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name     = "springfeld"
+  s.name     = "iasc-reactor"
   s.version  = "0.1.0"
   s.date     = "2016-01-12"
   s.summary  = "A small event loop using the reactor pattern"
