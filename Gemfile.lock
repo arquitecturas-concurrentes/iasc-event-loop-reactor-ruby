@@ -3,24 +3,24 @@ GEM
   specs:
     codeclimate-test-reporter (1.0.9)
       simplecov (<= 0.13)
-    colorize (0.8.1)
+    colorize (1.1.0)
     diff-lcs (1.2.5)
     docile (1.1.5)
-    json (2.3.0)
-    rake (13.0.1)
-    rspec (3.9.0)
-      rspec-core (~> 3.9.0)
-      rspec-expectations (~> 3.9.0)
-      rspec-mocks (~> 3.9.0)
-    rspec-core (3.9.1)
-      rspec-support (~> 3.9.1)
-    rspec-expectations (3.9.1)
+    json (2.13.2)
+    rake (13.3.0)
+    rspec (3.13.1)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.5)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.9.0)
-    rspec-mocks (3.9.1)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.5)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.9.0)
-    rspec-support (3.9.2)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.5)
     simplecov (0.13.0)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
@@ -29,6 +29,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   codeclimate-test-reporter
@@ -40,4 +41,4 @@ DEPENDENCIES
   rspec-mocks
 
 BUNDLED WITH
-   1.17.3
+   2.6.9
